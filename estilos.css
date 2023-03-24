@@ -1,0 +1,222 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*SELECTORES GENERALES*/
+body{
+    background-color: #222;
+    color: white;
+    font: 400 16px 'Alkatra', cursive;
+    text-align: justify;
+}
+article{
+    padding-top: 80px;
+}
+section{
+    margin: 20px 300px;
+}
+h1{
+    margin: 30px 300px 0px;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+h2{
+    font-size: 28px;
+    margin: 10px 0 20px 0;
+    font-weight: 600;
+}
+h3{
+    font-size: 20px;
+    margin: 10px 0 25px 0;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:any-link{
+    color:white;
+}
+a:-webkit-any-link {
+    color:white;
+}
+a:-moz-any-link {
+    color:white;
+}
+a:hover{
+    color: #ffc400;
+}
+p{
+    padding-bottom: 10px;
+}
+strong{
+    font-size: 18px;
+}
+span{
+    font-style: italic;
+}
+
+
+/*Clases e ids*/
+#logo{
+    padding: 5px 0;
+}
+
+/*Navegador*/
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid #752612;
+}
+nav ul{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+}
+nav ul li{
+    padding-top: 20px;
+}
+nav ul li img{
+    padding-top: 5px;
+}
+
+/*Bloque Origen*/
+#origen{
+    border-bottom: 3px solid #752612;
+    padding: 60px 0;
+}
+#gridorigen{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+}
+#gridorigen img{
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+/*Bloque Ingredientes*/
+#ingredientes{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+}
+#griding{
+    display: grid;
+    grid-template-columns: repeat(3, 15%);
+    gap: 40px;
+    align-content: center;
+    justify-content: center;
+}
+#grid img{
+    height: 150px;
+}
+.listaingr ul li{
+    padding-top: 3px;
+    padding-bottom: 13px;
+}
+
+/*Bloque Receta*/
+#receta{
+    margin: 0;
+    padding: 60px 300px;
+    background-color: white;
+    color: black;
+}
+#flexreceta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px 30px;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.card{
+    width: 350px;
+    background-color: #222;
+    color: white;
+    border-radius: 10px;
+}
+.card iframe{
+    border-radius: 10px 10px 0 0;
+    border-bottom: 3px solid #752612;
+}
+.card ul, .card p{
+    padding: 20px;
+}
+
+/*Bloque Comentario*/
+#comentario{
+    margin: 0;
+    padding: 60px 300px;
+    background-color: #752612;
+}
+.gridform{
+    display: grid;
+    grid-template-columns: 150px 400px;
+    margin-bottom: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.gridform input, .gridform textarea, .gridform select{
+    border-radius: 5px;
+    border: white;
+    font: 400 16px 'Alkatra', cursive;
+    padding: 2px 5px;
+}
+.gridform input[type="submit"]{
+    background-color: #222;
+    color: white;
+    grid-column: 2/3;
+    margin-top: 5px;
+    padding: 2px 20px;
+    justify-self: end;
+}
+
+/*Footer*/
+footer{
+    padding: 20px 0 20px 30%;
+    background-image: url(imagenes/sarten_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+table{
+    align-content: center;
+    justify-content: center;
+    width: 60%;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+    margin: 5px 10px;
+}
+th h3, th img{
+    padding: 0px 20px;
+}
+#redes{
+    font-size: 28px;
+    padding-top: 40px;
+}
+#redesp{
+    display: inline;
+}
+#redes i{
+    padding-left: 20px;
+}
+
+
+
